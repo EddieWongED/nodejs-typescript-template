@@ -9,17 +9,15 @@
 {
 	...
 	"[typescript]": {
-		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[json]": {
-		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
 	"eslint.validate": ["typescript"],
-	"editor.formatOnPaste": true,
-	"editor.formatOnSave": true,
 	"eslint.format.enable": true
 }
 ```
